@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peru Triviando</title>
+    <title>Trivia Departamentos</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="">
+        </div>
+        <div class="main-menu">
+            <ul>
+                <li>Menu 1</li>
+                <li >Menu 2</li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="container-inner">
+            <div id="pregunta_1">
+                <div class="container-questions">
+                    <h4>Pregunta 1</h4>
+                    <h2>¿Cúal es la capital de Lima?</h2>
+                </div>
+                <div class="container-answers">
+                    <div class="container-option">
+                        <input type="radio" id="respuesta_1" name="respuesta">
+                        <label for="respuesta_1">Lima</label>
+                    </div>
+                    <div class="container-option">
+                        <input type="radio" id="respuesta_2" name="respuesta">
+                        <label for="respuesta_2">Callao</label>
+                    </div>
+                    <div class="container-option">
+                        <input type="radio" id="respuesta_3" name="respuesta">
+                        <label for="respuesta_3">Ancash</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-buttons" id="buttons">
+        <div class="button buttonBack"><</div>
+        <div class="button buttonNext">Siguiente</div>
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
