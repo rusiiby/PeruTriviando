@@ -10,6 +10,7 @@
 <body>
     <header>
         <div class="logo">
+            ghftyfg
             <img src="assets/images/logo.png" alt="">
         </div>
         <div class="main-menu">
@@ -21,6 +22,11 @@
     </header>
     <div class="container">
         <div class="container-inner">
+            <div class="intro" id="intro">
+                <div class="container-intro">
+                    <div class="button-play" id="button-play">Quiero Jugar</div>
+                </div>
+            </div>
             <div id="pregunta_1">
                 <div class="container-questions">
                     <h4>Pregunta 1</h4>
@@ -28,25 +34,49 @@
                 </div>
                 <div class="container-answers">
                     <div class="container-option">
-                        <input type="radio" id="respuesta_1" name="respuesta">
+                        <input type="radio" id="respuesta_1" name="respuesta_pregunta_1">
                         <label for="respuesta_1">Lima</label>
                     </div>
                     <div class="container-option">
-                        <input type="radio" id="respuesta_2" name="respuesta">
+                        <input type="radio" id="respuesta_2" name="respuesta_pregunta_1">
                         <label for="respuesta_2">Callao</label>
                     </div>
                     <div class="container-option">
-                        <input type="radio" id="respuesta_3" name="respuesta">
+                        <input type="radio" id="respuesta_3" name="respuesta_pregunta_1">
                         <label for="respuesta_3">Ancash</label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pregunta_2">
+                <div class="container-questions">
+                    <h4>Pregunta 2</h4>
+                    <h2>¿Cúal es la capital de Piura?</h2>
+                </div>
+                <div class="container-answers">
+                    <div class="container-option">
+                        <input type="radio" id="res_1" name="res_2">
+                        <label for="res_1">Lima</label>
+                    </div>
+                    <div class="container-option">
+                        <input type="radio" id="res_2" name="res_2">
+                        <label for="res_2">Callao</label>
+                    </div>
+                    <div class="container-option">
+                        <input type="radio" id="res_3" name="res_2">
+                        <label for="res_3">Ancash</label>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-buttons" id="buttons">
-        <div class="button buttonBack"><</div>
-        <div class="button buttonNext">Siguiente</div>
+    <div id="buttons">
+        <div class="container-buttons">
+            <div class="button buttonBack"><</div>
+            <div class="button buttonNext" id="next">Siguiente</div>
+        </div>
     </div>
+    
     <script src="assets/js/script.js"></script>
 </body>
 </html>
